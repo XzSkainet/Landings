@@ -10,9 +10,7 @@ Este repositorio contiene una colección de plantillas de landing pages profesio
 |-----------------------------------------------|-------------|------|--------|
 | [Entrenador PRO](./plantilla-entrenador/)     | Landing page moderna para entrenadores de fitness y gimnasios | [Ver demo](#) | ✅ Completa |
 | [Restaurant Deluxe](./plantilla-restaurante/) | Sitio web elegante para restaurantes y cafeterías | [Ver demo](#) | ✅ Completa |
-| Creative Agency                               | Portfolio para agencias creativas y freelancers | [Ver demo](#) | 🚧 Próximamente |
 | [E-Learning](./plantilla-curso/)              | Plataforma para cursos online y educación | [Ver demo](#) | ✅ Completa |
-| Event Summit                                  | Página para conferencias y eventos | [Ver demo](#) | 🚧 Próximamente |
 
 ## 🌟 Características comunes
 
@@ -45,9 +43,7 @@ landings/
 │   ├── style.css
 │   └── ...
 ├── plantilla-restaurant/     # [Próximamente] Landing para restaurantes
-├── plantilla-agency/         # [Próximamente] Para agencias creativas
-├── plantilla-elearning/      # [Próximamente] Para plataformas educativas
-├── plantilla-event/          # [Próximamente] Para eventos y conferencias
+├── plantilla-curso/          # [Próximamente] Para plataformas educativas
 └── README.md                 # Este archivo
 ```
 
@@ -57,6 +53,16 @@ landings/
 Landing page moderna e impactante ideal para entrenadores personales, coaches de fitness y gimnasios. Incluye secciones para servicios, horarios, testimonios y contacto.
 
 ![Preview Entrenador PRO](./plantilla-entrenador/assets/img/preview.jpg)
+
+### Restaurant Deluxe
+Sitio web elegante y sofisticado para restaurantes, cafeterías y negocios gastronómicos. Cuenta con menú interactivo, galería de platos, reservas online y sección de eventos especiales.
+
+![Preview Restaurant Deluxe](./plantilla-restaurante/assets/img/preview.jpg)
+
+### E-Learning
+Plataforma moderna para cursos online y educación a distancia. Incluye sistema de lecciones, perfiles de instructores, testimonios de estudiantes y área de inscripción segura.
+
+![Preview E-Learning](./plantilla-curso/assets/img/preview.jpg)
 
 ### Próximas plantillas
 Estamos trabajando en nuevos diseños que se agregarán próximamente a esta colección. ¡Mantente atento a las actualizaciones!

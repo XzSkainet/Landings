@@ -76,11 +76,26 @@ document.addEventListener('DOMContentLoaded', function() {
     /**
      * Mobile nav toggle
      */
-    on('click', '.mobile-nav-toggle', function(e) {
-        select('#navbar ul').classList.toggle('active');
-        this.classList.toggle('fa-bars');
-        this.classList.toggle('fa-times');
-    });
+    const mobileNavToggle = select('.mobile-nav-toggle');
+    const navbarUl = select('#navbar ul');
+
+    if (mobileNavToggle && navbarUl) {
+        mobileNavToggle.addEventListener('click', function() {
+            navbarUl.classList.toggle('active');
+
+            // Cambiamos el ícono según el estado del menú
+            const icon = this.querySelector('i');
+            if (icon) {
+                if (navbarUl.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            }
+        });
+    }
 
     /**
      * Mobile nav dropdown toggle
@@ -100,11 +115,16 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
 
             let navbar = select('#navbar');
-            if (navbar.classList.contains('navbar-mobile')) {
-                navbar.classList.remove('navbar-mobile');
+            let navbarUl = select('#navbar ul');
+
+            if (navbarUl.classList.contains('active')) {
+                navbarUl.classList.remove('active');
                 let navbarToggle = select('.mobile-nav-toggle');
-                navbarToggle.classList.toggle('fa-bars');
-                navbarToggle.classList.toggle('fa-times');
+                const icon = navbarToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
             }
 
             let header = select('#header');
