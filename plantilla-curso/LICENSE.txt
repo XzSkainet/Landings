@@ -1,0 +1,101 @@
+LICENCIA DE USO - PLANTILLA E-LEARNING
+==================================
+
+Fecha de última actualización: 30 de abril de 2025
+
+Esta licencia (en adelante, "Licencia") constituye un acuerdo legal entre usted y el autor original (en adelante, "Autor") de la plantilla web "E-Learning" (en adelante, "la Plantilla").
+
+El uso, modificación, copia o distribución de la Plantilla implica la aceptación total y sin reservas de todos los términos y condiciones de esta Licencia.
+
+1. DEFINICIONES
+--------------
+
+- "Plantilla" se refiere al conjunto de archivos HTML, CSS, JavaScript, imágenes y otros recursos que conforman la plantilla web E-Learning.
+- "Usuario" se refiere a cualquier persona o entidad que adquiera o utilice la Plantilla.
+- "Proyecto Final" se refiere al sitio web o aplicación resultante después de personalizar y modificar la Plantilla.
+- "Uso Comercial" se refiere a cualquier utilización de la Plantilla con fines de obtener beneficio económico directo o indirecto.
+
+2. CONCESIÓN DE LICENCIA
+-----------------------
+
+El Autor otorga al Usuario una licencia mundial, no exclusiva, no transferible para:
+
+2.1. Utilizar la Plantilla para crear sitios web o aplicaciones personales o comerciales.
+2.2. Modificar la Plantilla según sus necesidades.
+2.3. Utilizar la Plantilla modificada como parte de un trabajo comisionado para un cliente.
+
+3. RESTRICCIONES
+---------------
+
+El Usuario no podrá:
+
+3.1. Redistribuir, vender, alquilar, arrendar, sublicenciar o transferir la Plantilla original o sustancialmente sin modificar a terceros.
+3.2. Vender la Plantilla como un producto independiente o incluirla en un producto para venta.
+3.3. Usar la Plantilla para crear un producto competitivo o un servicio de plantillas.
+3.4. Reclamar autoría o propiedad intelectual sobre la Plantilla original.
+3.5. Utilizar la Plantilla para crear contenido ilegal, ofensivo, difamatorio o que infrinja derechos de terceros.
+
+4. USO EN PROYECTOS COMERCIALES
+------------------------------
+
+4.1. El Usuario puede utilizar la Plantilla en un número ilimitado de proyectos personales o comerciales.
+4.2. El Usuario puede modificar la Plantilla para adaptarla a las necesidades específicas de un proyecto comercial.
+4.3. El Usuario puede cobrar a sus clientes por los servicios de implementación, personalización o integración de la Plantilla.
+
+5. ATRIBUCIÓN
+------------
+
+5.1. El Usuario no está obligado a incluir atribución al Autor en el Proyecto Final.
+5.2. Sin embargo, se agradece y recomienda (aunque no es obligatorio) incluir una mención al autor original en los comentarios del código o en la sección de créditos del sitio.
+
+6. ELEMENTOS DE TERCEROS
+-----------------------
+
+6.1. La Plantilla puede incluir elementos de terceros como fuentes, iconos o bibliotecas JavaScript que están sujetos a sus propias licencias.
+6.2. El Usuario es responsable de cumplir con los términos de licencia de estos elementos de terceros.
+6.3. El Autor ha procurado utilizar recursos con licencias compatibles con el uso comercial, pero no garantiza la idoneidad de todos los componentes para todos los usos.
+
+7. RECURSOS DE DEMOSTRACIÓN
+-------------------------
+
+7.1. Las imágenes, textos y otros contenidos incluidos en la versión de demostración de la Plantilla son para fines ilustrativos únicamente.
+7.2. El Usuario debe reemplazar estos recursos con su propio contenido antes de publicar el Proyecto Final.
+7.3. El Autor no garantiza que los recursos de demostración estén libres de derechos para su uso en proyectos comerciales.
+
+8. EXENCIÓN DE GARANTÍAS
+----------------------
+
+8.1. La Plantilla se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas.
+8.2. El Autor no garantiza que la Plantilla esté libre de errores o que sea adecuada para un propósito particular.
+8.3. El Usuario asume todos los riesgos relacionados con la calidad, el rendimiento y la precisión de la Plantilla.
+
+9. LIMITACIÓN DE RESPONSABILIDAD
+------------------------------
+
+9.1. En ningún caso el Autor será responsable por daños directos, indirectos, incidentales, especiales, ejemplares o consecuentes (incluidos, entre otros, adquisición de bienes o servicios sustitutos, pérdida de uso, datos o beneficios, o interrupción del negocio) causados por el uso o la imposibilidad de usar la Plantilla.
+9.2. Esta limitación se aplica independientemente de la teoría de responsabilidad, ya sea contractual, extracontractual (incluyendo negligencia) o de otro tipo.
+
+10. TERMINACIÓN
+-------------
+
+10.1. Esta Licencia permanecerá en vigor hasta que sea terminada por el Usuario o el Autor.
+10.2. El Autor se reserva el derecho de terminar esta Licencia si el Usuario incumple cualquiera de sus términos y condiciones.
+10.3. En caso de terminación, el Usuario debe destruir todas las copias de la Plantilla en su posesión.
+
+11. MISCELÁNEA
+------------
+
+11.1. Esta Licencia constituye el acuerdo completo entre el Autor y el Usuario con respecto a la Plantilla y reemplaza cualquier acuerdo o entendimiento previo.
+11.2. Si alguna disposición de esta Licencia se considera inválida o inaplicable, dicha disposición se interpretará, limitará o modificará en la medida necesaria para eliminar su invalidez o inaplicabilidad.
+11.3. Esta Licencia se regirá e interpretará de acuerdo con las leyes del país de residencia del Autor, sin dar efecto a ningún principio de conflictos de leyes.
+
+---
+
+Para cualquier consulta relacionada con esta Licencia, póngase en contacto con:
+
+Autor: Say
+Email: xzstewie@gmail.com
+
+---
+
+© 2025. Todos los derechos reservados.

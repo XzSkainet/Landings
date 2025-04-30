@@ -6,13 +6,13 @@ Este repositorio contiene una colección de plantillas de landing pages profesio
 
 ## 📋 Plantillas disponibles
 
-| Nombre | Descripción | Demo | Estado |
-|--------|-------------|------|--------|
-| [Entrenador PRO](./plantilla-entrenador/) | Landing page moderna para entrenadores de fitness y gimnasios | [Ver demo](#) | ✅ Completa |
-| Restaurant Deluxe | Sitio web elegante para restaurantes y cafeterías | [Ver demo](#) | 🚧 Próximamente |
-| Creative Agency | Portfolio para agencias creativas y freelancers | [Ver demo](#) | 🚧 Próximamente |
-| E-Learning | Plataforma para cursos online y educación | [Ver demo](#) | 🚧 Próximamente |
-| Event Summit | Página para conferencias y eventos | [Ver demo](#) | 🚧 Próximamente |
+| Nombre                                        | Descripción | Demo | Estado |
+|-----------------------------------------------|-------------|------|--------|
+| [Entrenador PRO](./plantilla-entrenador/)     | Landing page moderna para entrenadores de fitness y gimnasios | [Ver demo](#) | ✅ Completa |
+| [Restaurant Deluxe](./plantilla-restaurante/) | Sitio web elegante para restaurantes y cafeterías | [Ver demo](#) | ✅ Completa |
+| Creative Agency                               | Portfolio para agencias creativas y freelancers | [Ver demo](#) | 🚧 Próximamente |
+| [E-Learning](./plantilla-curso/)              | Plataforma para cursos online y educación | [Ver demo](#) | ✅ Completa |
+| Event Summit                                  | Página para conferencias y eventos | [Ver demo](#) | 🚧 Próximamente |
 
 ## 🌟 Características comunes
 
