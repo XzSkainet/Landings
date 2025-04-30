@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Deluxe - Experiencia gastronómica de alta calidad con sabores únicos y ambiente elegante">
+    <meta name="keywords" content="restaurante, gastronomía, comida gourmet, chef, reservas, menú">
+    <title>Restaurant Deluxe | Experiencia Culinaria Única</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente elegante para restaurantes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- Header y Navegación -->
+<header id="header">
+    <div class="container">
+        <div class="logo">
+            <h1>Restaurant <span>Deluxe</span></h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Sección Hero -->
+<section id="hero">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <h2>Bienvenido a</h2>
+            <h1>Restaurant Deluxe</h1>
+            <p>Una experiencia gastronómica inolvidable con los mejores sabores de la cocina local e internacional</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#reservation" class="btn btn-secondary">Reservar Mesa</a>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+</section>
+
+<!-- Sección Nosotros -->
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Nuestra Historia</span>
+            <h2>Tradición Culinaria</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="assets/img/about-restaurant.avif" alt="Interior del Restaurant Deluxe">
+            </div>
+            <div class="about-text">
+                <h3>15 años de excelencia gastronómica</h3>
+                <p>En Restaurant Deluxe, cada plato cuenta una historia. Fundado en 2010 por el reconocido Chef Antonio Martínez, nuestro restaurante ha evolucionado manteniendo siempre la esencia de la cocina tradicional con un toque contemporáneo.</p>
+                <p>Utilizamos ingredientes frescos y de temporada, seleccionados cuidadosamente de productores locales para garantizar la máxima calidad en cada creación.</p>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Ingredientes orgánicos y locales</li>
+                    <li><i class="fas fa-check"></i> Chef con estrella Michelin</li>
+                    <li><i class="fas fa-check"></i> Ambiente íntimo y elegante</li>
+                    <li><i class="fas fa-check"></i> Carta de vinos premium</li>
+                </ul>
+                <a href="#menu" class="btn btn-primary">Explorar Menú</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Características -->
+<section id="features" class="section-padding-small bg-light">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Calidad Premium</h3>
+                <p>Ingredientes seleccionados de la más alta calidad para una experiencia gastronómica excepcional.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-wine-glass-alt"></i>
+                </div>
+                <h3>Selección de Vinos</h3>
+                <p>Extensa carta de vinos nacionales e internacionales para maridar perfectamente cada plato.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-concierge-bell"></i>
+                </div>
+                <h3>Servicio Exclusivo</h3>
+                <p>Atención personalizada y profesional para hacer de su visita un momento inolvidable.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Opciones Vegetarianas</h3>
+                <p>Deliciosas opciones para todos los gustos y necesidades dietéticas.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Menú -->
+<section id="menu" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Descubre</span>
+            <h2>Nuestro Menú</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="menu-tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-target="starters">Entrantes</button>
+                <button class="tab-btn" data-target="main">Platos Principales</button>
+                <button class="tab-btn" data-target="desserts">Postres</button>
+                <button class="tab-btn" data-target="drinks">Bebidas</button>
+            </div>
+
+            <div class="tab-content active" id="starters">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/starter-1.avif" alt="Carpaccio de Res">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Carpaccio de Res <span class="price">€14</span></h4>
+                            <p>Finas láminas de res, aceite de oliva virgen, parmesano y rúcula fresca</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/starter-2.avif" alt="Croquetas Gourmet">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Croquetas Gourmet <span class="price">€12</span></h4>
+                            <p>Selección de croquetas caseras: jamón ibérico, boletus y queso azul</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/starter-3.avif" alt="Ensalada Deluxe">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Ensalada Deluxe <span class="price">€16</span></h4>
+                            <p>Mix de lechugas, aguacate, mango, nueces caramelizadas y vinagreta de frambuesa</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/starter-4.avif" alt="Tartar de Atún">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Tartar de Atún <span class="price">€18</span></h4>
+                            <p>Tartar de atún rojo, aguacate, mango y aderezo de sésamo y soja</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="main">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/main-1.avif" alt="Lomo de Res">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Lomo de Res Wellington <span class="price">€28</span></h4>
+                            <p>Lomo de res en hojaldre con duxelle de champiñones y salsa de vino tinto</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/main-2.avif" alt="Risotto de Mariscos">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Risotto de Mariscos <span class="price">€24</span></h4>
+                            <p>Cremoso risotto con langostinos, mejillones, calamar y azafrán</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/main-3.avif" alt="Magret de Pato">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Magret de Pato <span class="price">€26</span></h4>
+                            <p>Magret de pato con reducción de frutos rojos y puré de batata</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/main-4.avif" alt="Pasta Trufada">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Pasta Trufada <span class="price">€22</span></h4>
+                            <p>Tagliatelle con crema de trufa negra, setas silvestres y parmesano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="desserts">
+                <!-- Contenido similar para postres -->
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/dessert-1.avif" alt="Tiramisú">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Tiramisú Deluxe <span class="price">€9</span></h4>
+                            <p>Clásico tiramisú con un toque de amaretto y cacao premium</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/dessert-2.avif" alt="Coulant de Chocolate">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Coulant de Chocolate <span class="price">€11</span></h4>
+                            <p>Bizcocho de chocolate con corazón fundido y helado de vainilla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="drinks">
+                <!-- Contenido similar para bebidas -->
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/drink-1.avif" alt="Vino Tinto">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Selección de Vinos <span class="price">€8-€120</span></h4>
+                            <p>Amplia carta de vinos nacionales e internacionales</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/img/menu/drink-2.avif" alt="Cócteles">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Cócteles Premium <span class="price">€12</span></h4>
+                            <p>Creaciones exclusivas de nuestro mixólogo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-cta">
+            <a href="menu-completo.html" class="btn btn-secondary">Ver Menú Completo</a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Chef -->
+<section id="chef" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Nuestro</span>
+            <h2>Chef Ejecutivo</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="chef-profile">
+            <div class="chef-img">
+                <img src="assets/img/chef.avif" alt="Chef Antonio Martínez">
+            </div>
+            <div class="chef-bio">
+                <h3>Antonio Martínez</h3>
+                <span class="position">Chef Ejecutivo</span>
+                <p>Con más de 20 años de experiencia en la alta cocina internacional y formado en las mejores escuelas culinarias de Europa, el Chef Antonio Martínez ha desarrollado un estilo único que combina técnicas tradicionales con presentaciones modernas.</p>
+                <p>Su pasión por los ingredientes locales y de temporada se refleja en cada uno de los platos que diseña para Restaurant Deluxe, creando experiencias gastronómicas memorables para nuestros comensales.</p>
+                <div class="chef-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Galería -->
+<section id="gallery" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Explora</span>
+            <h2>Nuestra Galería</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-1.avif" alt="Plato gourmet">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-2.avif" alt="Interior del restaurante">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-3.avif" alt="Preparación de platos">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-4.avif" alt="Detalle culinario">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-5.avif" alt="Terraza del restaurante">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/img/gallery/gallery-6.avif" alt="Postre especial">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Testimonios -->
+<section id="testimonials" class="section-padding bg-dark">
+    <div class="container">
+        <div class="section-header light">
+            <span class="subtitle">Opiniones</span>
+            <h2>Lo Que Dicen Nuestros Clientes</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Una experiencia gastronómica inolvidable. Cada plato es una obra de arte con sabores que sorprenden y deleitan. El servicio impecable completa la experiencia."</p>
+                    <div class="client-info">
+                        <h4>María García</h4>
+                        <span>Crítica Gastronómica</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"El lugar perfecto para celebraciones especiales. El menú degustación superó todas nuestras expectativas y el maridaje de vinos fue excepcional."</p>
+                    <div class="client-info">
+                        <h4>Carlos Rodríguez</h4>
+                        <span>Cliente frecuente</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Ambiente elegante pero acogedor, servicio atento y una carta que sorprende por su creatividad. Los postres son simplemente espectaculares."</p>
+                    <div class="client-info">
+                        <h4>Laura Martínez</h4>
+                        <span>Empresaria</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Reserva -->
+<section id="reservation" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Reserva</span>
+            <h2>Tu Mesa</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="reservation-wrapper">
+            <div class="reservation-info">
+                <h3>Información de Reservas</h3>
+                <p>Para garantizar la mejor experiencia, recomendamos realizar su reserva con anticipación. Nuestro horario de atención es:</p>
+                <ul class="opening-hours">
+                    <li><strong>Lunes a Jueves:</strong> 13:00 - 16:00 | 20:00 - 23:30</li>
+                    <li><strong>Viernes y Sábado:</strong> 13:00 - 16:00 | 20:00 - 00:30</li>
+                    <li><strong>Domingo:</strong> 13:00 - 16:30 | Cerrado por la noche</li>
+                </ul>
+                <p>Para eventos privados y grupos grandes, contáctenos directamente por teléfono.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> +34 912 345 678</p>
+                    <p><i class="fas fa-envelope"></i> reservas@restaurantdeluxe.com</p>
+                </div>
+            </div>
+            <div class="reservation-form">
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Teléfono" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group half">
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="guests" name="guests" required>
+                            <option value="" disabled selected>Número de personas</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 personas</option>
+                            <option value="6">6 personas</option>
+                            <option value="more">Más de 6 personas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Mensaje o peticiones especiales"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Reservar Ahora</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contact" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-header">
+            <span class="subtitle">Contacto</span>
+            <h2>Encuéntranos</h2>
+            <div class="divider"><span></span></div>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="contact-box">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Dirección</h4>
+                        <p>Calle Gourmet 123<br>28001 Madrid, España</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Reservas</h4>
+                        <p>+34 912 345 678<br>+34 912 345 679</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Email</h4>
+                        <p>info@restaurantdeluxe.com<br>reservas@restaurantdeluxe.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7479999438347!2d-3.683144!3d40.4167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc323ab5aa5c95a71!2sMadrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1651661020000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WhatsApp Flotante -->
+<a href="https://wa.me/34912345678" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Restaurant <span>Deluxe</span></h2>
+                <p>Experiencia gastronómica de alta calidad</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#reservation">Reservas</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Calle Gourmet 123, Madrid</li>
+                    <li><i class="fas fa-phone"></i> +34 912 345 678</li>
+                    <li><i class="fas fa-envelope"></i> info@restaurantdeluxe.com</li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Suscríbete</h3>
+                <p>Recibe nuestras novedades y eventos especiales</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Restaurant Deluxe. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal de Galería -->
+<div id="galleryModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div class="modal-caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>

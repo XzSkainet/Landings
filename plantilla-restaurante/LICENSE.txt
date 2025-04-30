@@ -1,0 +1,60 @@
+## LICENCIA DE USO - PLANTILLA "RESTAURANT DELUXE"
+
+Fecha de última actualización: 30 de abril de 2025
+
+Esta licencia se aplica a la plantilla web "Restaurant Deluxe" (el "Producto") proporcionada por Say (el "Autor").
+
+### TÉRMINOS Y CONDICIONES DE USO
+
+1. **CONCESIÓN DE LICENCIA**
+
+   El Autor concede al usuario final (el "Usuario") una licencia no exclusiva, mundial, intransferible para utilizar el Producto en un único dominio o proyecto para uso personal o comercial específico, sujeto a las restricciones establecidas en esta licencia.
+
+2. **USOS PERMITIDOS**
+
+   - Usar el Producto para crear sitios web personales o comerciales
+   - Modificar y personalizar el código fuente y diseño para adaptarlo a necesidades específicas
+   - Usar el Producto para proyectos de clientes, siempre que el producto final sea un sitio web funcionando en producción
+
+3. **RESTRICCIONES**
+
+   - Redistribuir, revender, alquilar, arrendar o sublicenciar el Producto, ya sea en su forma original o modificada
+   - Incluir el Producto en plantillas que se distribuyan o vendan a múltiples usuarios
+   - Utilizar el Producto en más de un dominio o proyecto sin adquirir licencias adicionales
+   - Eliminar cualquier referencia a los derechos de autor o atribución presente en el código
+   - Usar los elementos visuales del Producto (imágenes, logos, etc.) fuera del contexto del desarrollo web
+
+4. **DERECHOS DE PROPIEDAD INTELECTUAL**
+
+   Todos los derechos de propiedad intelectual, incluidos los derechos de autor, relacionados con el Producto pertenecen al Autor. Esta licencia no transfiere ningún derecho de propiedad sobre el Producto.
+
+5. **IMÁGENES Y RECURSOS VISUALES**
+
+   Las imágenes, fotografías y recursos visuales incluidos en el Producto son para fines de demostración únicamente. Algunas imágenes pueden estar sujetas a derechos de autor de terceros. Se recomienda al Usuario reemplazar dichas imágenes con contenido propio o adquirido legalmente antes de su uso comercial.
+
+6. **SIN GARANTÍAS**
+
+   El Producto se proporciona "tal cual", sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, pero no limitado a, las garantías implícitas de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso el Autor será responsable por cualquier reclamo, daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de o en conexión con el Producto o el uso u otras operaciones en el Producto.
+
+7. **TERMINACIÓN**
+
+   Esta licencia es efectiva hasta su terminación. El Autor se reserva el derecho a terminar esta licencia en cualquier momento si el Usuario incumple cualquiera de los términos de la misma. Al término de la licencia, el Usuario debe destruir todas las copias del Producto.
+
+8. **ATRIBUCIÓN**
+
+   Se requiere mantener la atribución de autoría en los comentarios del código cuando se utilice la plantilla en su formato original. La eliminación de la atribución está permitida en proyectos comerciales finales, aunque se agradece mantenerla.
+
+9. **CESIÓN**
+
+   Esta licencia no podrá ser cedida, sublicenciada o transferida por el Usuario sin el consentimiento previo por escrito del Autor.
+
+10. **LEY APLICABLE**
+
+    Esta licencia se regirá e interpretará de acuerdo con las leyes del país de residencia del Autor, sin consideración a sus conflictos de principios legales.
+
+---
+
+Para consultas sobre licencias comerciales extendidas o usos especiales, por favor contacte con:
+
+Autor: Say
+Email: xzstewie@gmail.com
